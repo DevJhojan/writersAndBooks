@@ -2,7 +2,7 @@
   <div
     class="card mt-5 bg-danger"
     *ngFor="let writer of writeris; let indice = index"
-    (click)="bookWriters(indice+1)"
+    (click)="bookWriters(writer?.id)"
   >
     <h3 class="title bg-dark text-light">
       {{ writer?.nombre }} {{ writer?.apellidos }}
