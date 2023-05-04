@@ -1,6 +1,6 @@
 # writers And Books
 
-## aparece
+## Appearance
 ### <img src = "./image/fullScreem.png">
 
 ## filter
