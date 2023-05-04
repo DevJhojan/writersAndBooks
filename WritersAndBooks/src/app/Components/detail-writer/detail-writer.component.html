@@ -1,0 +1,24 @@
+<div class="card-body mt-4 bg-danger">
+  <h3 class="title bg-dark text-light">
+    {{ writer?.nombre }}
+    {{ writer?.apellidos }}
+  </h3>
+  <img class="card-img w-10 image" [src]="writer.imagen" alt="" />
+  <div class="content bg-dark">
+    <p class="text mx-auto card-subtitle text-light">
+      Perteneciente de {{ writer.pais }}
+    </p>
+    <div class="book">
+      <p
+        class="text position-fixed text-light text-light"
+
+      >
+        Libros
+    </p>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <button class="text-light text-light" routerLink="" >
+    X
+  </button>
+</div>
